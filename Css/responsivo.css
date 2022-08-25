@@ -1,0 +1,412 @@
+/*responsivo*/
+
+@media  screen and (max-width:499px) {
+    
+    header {
+
+        height: auto;
+    }
+    
+    nav {
+
+        flex-direction: column;
+        position: fixed;
+        align-items: center;
+        padding: 10px;
+    
+    } 
+
+    .area-logo {
+       
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .area-logo a {
+
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .estreia {
+
+        background:linear-gradient( 180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../Img/bg-resp2.png);
+        background-size: cover;
+        height: 120vh;
+        background-position:center;
+    }
+
+    .caixa-e{
+
+        margin-top: 450px;
+    }
+
+ .centraliza {
+
+    width: 90%;
+ }
+
+ .caixa-planos {
+
+    width: 100%;
+ }
+
+    .planos .centraliza {
+
+        grid-template-areas: 
+    
+        'c1'
+        'p1' 
+        'p2'
+        ;
+
+        column-gap: 0;
+        row-gap: 15px;
+    }
+
+    .conteudo-p {
+
+        width: 100%;
+    }
+
+    .menu-botao {
+
+        flex-direction: column;
+        align-items: center;
+        gap:12px;
+    }
+
+    .menu-botao .btn {
+
+        border-radius: 10px;
+    }
+
+    .menu-botao .btn:nth-of-type(1), .menu-botao .btn:nth-of-type(3) {
+
+        border-radius: 10px;
+    }
+
+    .conteudo-p small {
+
+       display: block;
+       margin-top: 15px;
+    }
+
+    .conteudo-p small:nth-of-type(1) {
+
+        margin-left:10px;
+    }
+    
+    .conteudo-p small:nth-of-type(2) {
+    
+        margin-left:10px;
+        margin-top: 8px;
+    }
+    
+   
+
+    .conteudo-p h2 {
+
+        font-size: 18px;
+    }
+
+    .fav .centraliza {
+
+         width:96% ;
+    }
+
+    .fav h2 {
+
+        font-size: 20px;
+    }
+
+    .caixa-fav {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caixa-fav-1 {
+
+        width: 80%;
+    }   
+
+    .caixa-fav-1 h2 {
+
+        font-size: 30px;
+    } 
+
+    .caixa-fav-1 h3 {
+
+        width: 70%;
+        font-size: 12px;
+        color: white;
+    }
+
+.caixa-fav-2 {
+
+   height: 50vh;
+   width: 90%;
+   margin-top: 70px;
+   background-position: center center;
+}
+
+.tri-img {
+
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.tri-img img {
+
+    width: 70%;
+}
+
+.fav-menu {
+
+    position: absolute;
+    bottom: 0px;
+    left: 28%;
+}
+
+}
+
+@media screen and (min-width:500px) and (max-width:699px) {
+    
+    header {
+
+        height: auto;
+    }
+    
+    nav {
+
+        flex-direction: column;
+        position: static;
+        align-items: center;
+        padding: 10px;
+    } 
+
+    .area-logo {
+       
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .area-logo a {
+
+        display: block;
+        display: flex;
+        justify-content: center;
+    }
+
+    .estreia {
+
+        background:linear-gradient( 180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../Img/bg-resp.png);
+        background-size: cover;
+        height: 120vh;
+        background-position: center center;
+    }
+
+    .caixa-e{
+
+        margin-top: 450px;
+    }
+
+ .centraliza {
+
+    width: 90%;
+ }
+
+ .caixa-planos {
+
+    width: 100%;
+ }
+
+    .planos .centraliza {
+
+        grid-template-areas: 
+    
+        'c1'
+        'p1' 
+        'p2'
+        ;
+
+        column-gap: 0;
+        row-gap: 15px;
+    }
+
+    .conteudo-p {
+
+        width: 100%;
+    }
+
+    .menu-botao .btn {
+
+        width: 140px;
+    }
+    
+    .conteudo-p small:nth-of-type(1) {
+
+        margin-left: 140px;
+    }
+    
+    .conteudo-p small:nth-of-type(2) {
+    
+        margin-left: 10px;
+    }
+
+    .conteudo-p h2 {
+
+        font-size: 22px;
+    }
+
+    .fav .centraliza {
+
+         width:96% ;
+    }
+
+    .fav h2 {
+
+        font-size: 20px;
+    }
+
+    .caixa-fav {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .caixa-fav-1 {
+
+        width: 80%;
+    }   
+
+    .caixa-fav-1 h2 {
+
+        font-size: 30px;
+    } 
+
+    .caixa-fav-1 h3 {
+
+        width: 70%;
+        font-size: 12px;
+        color: white;
+    }
+
+.caixa-fav-2 {
+
+   height: 50vh;
+   width: 90%;
+   margin-top: 70px;
+   background-position: center center;
+}
+
+.tri-img {
+
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.tri-img img {
+
+    width: 70%;
+}
+
+.fav-menu {
+
+    position: absolute;
+    bottom: 0px;
+    left: 35%;
+}
+}
+
+@media screen and (min-width:700px) and (max-width:980px) {
+    
+    .estreia {
+
+        background:linear-gradient( 180deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)), url(../Img/bg-resp.png);
+        background-size: cover;
+        height: 150vh;
+        background-position: center center;
+    }
+
+    .caixa-e{
+
+        margin-top: 380px;
+    }
+
+ .centraliza {
+
+    width: 80%;
+ }
+
+    .planos .centraliza {
+
+        grid-template-areas: 
+    
+        'c1'
+        'p1' 
+        'p2'
+        ;
+
+        column-gap: 0;
+        row-gap: 15px;
+    }
+
+    .conteudo-p {
+
+        width: 100%;
+    }
+
+    .conteudo-p h2 {
+
+        font-size: 22px;
+    }
+
+    .fav .centraliza {
+
+         width:96% ;
+    }
+    .caixa-fav-1 {
+
+        width: 50%;
+    }   
+
+    .caixa-fav-1 h2 {
+
+        font-size: 30px;
+    } 
+
+    .caixa-fav-1 h3 {
+
+        width: 70%;
+        font-size: 16px;
+        color: white;
+    }
+
+.caixa-fav-2 {
+
+   height: 50vh;
+   margin-top: 70px;
+}
+
+.tri-img {
+
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.fav-menu {
+
+    position: absolute;
+    bottom: 0px;
+    left: 40%;
+}
+
+
+}
